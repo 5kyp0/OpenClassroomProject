@@ -256,6 +256,11 @@ footer h1
     width: 28%;
 }
 
+#referal a
+{
+  color: #40423c;  
+}
+
 #my_pics
 {
     width: 35%;
@@ -550,6 +555,10 @@ footer h1
 #link_list a
 {
     text-decoration: none;
+}
+#referal a
+{
+  filter: invert(70%);  
 }
 
 /*CV*/
