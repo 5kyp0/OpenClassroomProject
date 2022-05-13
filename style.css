@@ -307,70 +307,6 @@ footer h1
     color: #702626;
 }
 
-
-
-/*      CONTACT     */
-section.contact
-{
-    text-align: center;
-    padding: 45px 0 80px 0;
-}
-#contact
-{
-    background-color: var(--red);
-}
-#contact .heading h2
-{
-    color: var(--white);
-}
-#contact-form
-{
-    font-size: 20px;
-    color: var(--white);
-}
-.form-control
-{
-    height: 50px;
-    font-size: 18px;
-}
-.comments
-{
-    font-style: italic;
-    font-size: 18px;
-    color: var(--white);
-    height: 25px;
-}
-#contact-form input[type=submit]
-{
-    margin: 40px auto 0px;
-    display: block;
-}
-.thank-you
-{
-    text-align: center;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 22px;
-}
-.button1
-{
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    border: 1px solid white;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 18px 50px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
-    background: transparent;
-}
-.button1:hover
-{
-    background: white;
-    color: var(--red);
-    text-decoration: none;
-}
 /* CV */
 
 h1.CV
@@ -457,6 +393,59 @@ section.skill
 #content
 {
     width: 90%;
+}
+
+
+/*      CONTACT     */
+section.contact
+{
+    text-align: center;
+    padding: 45px 0 80px 0;
+}
+#contact-form
+{
+    font-size: 20px;
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    height: 25px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+.thank-you
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.button1:hover
+{
+    background: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 @media all and (max-width: 1024px)
